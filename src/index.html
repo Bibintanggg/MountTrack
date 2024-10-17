@@ -1,0 +1,791 @@
+<!doctype html>
+<html data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Blog</title>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+
+        html {
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body style="scroll-behavior: smooth; ">
+    <header>
+        <div class="hero min-h-dvh" style="background-image:url(/asset/gunungrinjanilombok21.jpg)">
+            <div class="hero-overlay bg-opacity-20">
+                <div
+                    class="navbar bg-gray-500 mt-8 rounded-full sticky z-50 w-4/12 items-center justify-center mx-auto">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h7" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a id="">Homepage</a></li>
+                                <li><a id="about" href="#about">About</a></li>
+                                <li><a id="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-center">
+                        <a class="btn btn-ghost text-2xl font-bold">MountTrack</a>
+                    </div>
+                    <div class="navbar-end">
+                        <button class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-circle">
+                            <div class="indicatx`or">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                </svg>
+                                <span class="badge badge-xs badge-primary indicator-item"></span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold whitespace-nowrap text-white opacity-80 font-poppins"
+                        data-aos="fade-zoom-in" data-aos-duration="1000">Hello, Atap Negeri !!</h1>
+                    <p class="mb-5 font-medium opacity-80 text-white whitespace-normal text-lg font-jakarta"
+                        data-aos="fade-zoom-in" data-aos-duration="2000">
+                        Temukan pengalaman mendaki yang tak terlupakan di pegunungan yang indah. Kami
+                        menyediakan informasi lengkap tentang rute trekking, tips keselamatan, serta
+                        rekomendasi tempat menginap.
+                    </p>
+                    <button class="btn btn-primary rounded-full font-poppins" data-aos="fade-zoom-in"
+                        data-aos-duration="3000">Mulai Menjelajah</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </header>
+
+    <section id="about" class="bg-emerald-950">
+        <div class="famous-app">
+            <div class="famou">
+                <div class="app-image flex mx-auto justify-center gap-96">
+                    
+                    <div class="tiket">
+                        <img src="/asset/Tiket.com_(2017).svg" class="w-56">
+                    </div>
+
+                    <div class="traveloka">
+                        <img src="/asset/png-transparent-logo-traveloka-indonesia-advertising-brand-traveloka-text-logo-brochure-removebg-preview.png" class="w-56">
+                    </div>
+
+                    <div class="agoda">
+                        <img src="/asset/agoda-logo-8C565D040A-seeklogo.com.png" class="w-20">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="bg-emerald-950" style="height: 60vh;">
+        <div class="about flex justify-center items-center">
+
+            <div class="about-us max-w-md mt-10">
+                <p class="text-4xl font-bold font-poppins text-white"> — Mount<span class="text-green-900">Track</span>
+                </p>
+                <p class="text-left whitespace-normal text-lg mt-5 font-jakarta text-white">
+                    MountTrack adalah platform untuk membantu pendaki menemukan jalur terbaik, tips keselamatan, dan
+                    rekomendasi penginapan. Kami hadir
+                    untuk membuat pengalaman mendaki lebih mudah, aman, dan terorganisir. Ayo jelajahi gunung impian
+                    Anda bersama kami!
+                </p>
+
+                <div class="card-user flex gap-10 mt-10 text-xl font-jakarta">
+                    <div
+                        class="card-visitor w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                        <p class="text-center text-white">Telah Dikunjungi <br> <span class="font-bold">500.000</span>
+                            Orang</p>
+                    </div>
+
+                    <div
+                        class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                        <p class="text-center text-white">Telah Dipercaya <br> <span class="font-bold">500.000</span>
+                            Orang</p>
+                    </div>
+                </div>
+            </div>
+            <div class="side-img items-center">
+                <img src="/asset/mountain-element.png" class="w-11/12 mt-5">
+            </div>
+        </div>
+    </main>
+
+    <article class="h-svh bg-[#16423C]">
+        <div class="famous-mount text-center font-poppins text-2xl">
+            <h1 class=" text-3xl font-bold">Gunung Terpopuler</h1>
+            <div class="mountain-list">
+                <ul class="flex justify-center mx-auto gap-5 mt-5">
+                    <button onclick="showInfo('rinjani')"
+                        class="text-lg font-poppins bg-slate-600 w-48 h-11 rounded-full hover:opacity-50 transition-all ease-in-out">Gunung
+                        Rinjani</button>
+                    <button onclick="showInfo('merbabu')"
+                        class="text-lg font-poppins bg-slate-600 w-48 h-11 rounded-full hover:opacity-50 transition-all ease-in-out">Gunung
+                        Merbabu</button>
+                    <button onclick="showInfo('kerinci')"
+                        class="text-lg font-poppins bg-slate-600 w-44 h-11 rounded-full hover:opacity-50 transition-all ease-in-out">Gunung
+                        Kerinci</button>
+                    <button onclick="showInfo('lainnya')"
+                        class="text-lg font-poppins bg-slate-600 w-36 h-11 rounded-full hover:opacity-50 transition-all ease-in-out">Lainnya</button>
+                </ul>
+
+                <div id="rinjani"
+                    class="grid grid-cols-1 sm:grid-cols-2 text-white gunung-info lg:grid-cols-3 gap-4 p-6 w-9/12 ml-10">
+                    <div class=" p-4 rounded-lg">
+                        <img src="/asset/gunungrinjanilombok21.jpg" class="w-full h-auto rounded-lg" alt="Image 1"
+                            data-aos="fade-right" data-aos-duration="1000">
+
+                        <div class=" p-4 rounded-lg">
+                            <img src="/asset/3726MDPL 3.jpg" class="w-auto h-auto rounded-lg" data-aos="fade-right"
+                                data-aos-duration="1500">
+                        </div>
+                    </div>
+
+                    <div class=" p-4 rounded-lg ">
+                        <img src="/asset/rinjani-mountain2.jpg" class="w-full h-full rounded-lg"
+                            style=" object-fit: cover; margin-left: -10%;" data-aos="fade-up" data-aos-duration="2000">
+                    </div>
+
+                    <div class="text-mount">
+                        <h3 class="font-bold" data-aos="fade-left" data-aos-duration="1000">Gunung Rinjani</h3>
+
+                        <div class="border-l-2 border-black h-52 ">
+                            <p class="font-poppins text-lg text-left ml-5 whitespace-nowrap mt-5" data-aos="fade-left"
+                                data-aos-duration="1500">Gunung Rinjani adalah
+                                gunung berapi aktif <br> yang terletak di Pulau Lombok, Indonesia,
+                                dengan <br> ketinggian sekitar 3.726 meter. Ini adalah gunung <br>tertinggi kedua di
+                                Indonesia.
+                                Rinjani dikenal karena <br>keindahan alamnya, termasuk Danau Segara Anak di kawah.</p>
+
+                            <div class="more-info my-5 mr-20">
+                                <button class="btn btn-primary rounded-full font-poppins" data-aos="fade-left"
+                                    data-aos-duration="2000">
+                                    <p>Lihat Selengkapnya</p>
+
+                            </div>
+                            <div class="visit-trust flex gap-10">
+
+                                <div class="user-visit" data-aos="fade-up" data-aos-duration="1000">
+                                    <div
+                                        class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                        <p class="text-center text-white text-lg">20.000+ Pendaki<br class="text-left">
+                                            / Tahun
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="user-visit" data-aos="fade-up" data-aos-duration="1500">
+                                    <div
+                                        class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                        <p class="text-center text-white text-lg">15.000 Pendaki Menyukai <br
+                                                class="text-left">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="merbabu"
+                class="gunung-merbabu grid grid-cols-1 sm:grid-cols-2 gunung-info hidden  text-white lg:grid-cols-3 gap-4 p-6 w-9/12 ml-10">
+                <div class=" p-4 rounded-lg">
+                    <img src="/asset/merbabu-3.jpg" class="w-full h-auto rounded-lg">
+
+                    <div class=" p-4 rounded-lg">
+                        <img src="/asset/merbabu-mountain.jpg" class="w-auto h-auto rounded-lg"">
+                    </div>
+                </div>
+
+                <div class=" p-4 rounded-lg ">
+                    <img src=" /asset/merbabu-mountain2.jpg" class="w-full h-full rounded-lg"
+                            style=" object-fit: cover; margin-left: -10%;">
+                    </div>
+
+                    <div class="text-mount">
+                        <h3 class="font-bold">Gunung Merbabu</h3>
+
+                        <div class="border-l-2 border-black h-52 ">
+                            <p class="font-poppins text-lg text-left ml-5 whitespace-nowrap mt-5">
+                                Gunung Merbabu adalah gunung berapi bertipe <br>stratovolcano yang terletak di Jawa
+                                Tengah, Indonesia. <br>
+                                Gunung ini memiliki ketinggian sekitar 3.145 meter <br> di atas permukaan laut.
+                                Merbabu terkenal dengan <br>pemandangan alam yang indah</p>
+
+                            <div class="more-info my-5 mr-20">
+                                <button class="btn btn-primary rounded-full font-poppins">
+                                    <p>Lihat Selengkapnya</p>
+
+                            </div>
+                            <div class="visit-trust flex gap-10">
+
+                                <div class="user-visit">
+                                    <div
+                                        class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                        <p class="text-center text-white text-lg">250.000 Pengunjung <br
+                                                class="text-left"> / Tahun
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="user-visit">
+                                    <div
+                                        class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                        <p class="text-center text-white text-lg">250.000 Pengunjung <br
+                                                class="text-left"> / Tahun
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="kerinci"
+                    class="grid grid-cols-1 hidden sm:grid-cols-2 text-white gunung-info lg:grid-cols-3 gap-4 p-6 w-9/12 ml-10">
+                    <div class=" p-4 rounded-lg ">
+                        <img src="/asset/kerinci-mountain.jpg" class="w-96 h-40 rounded-lg " alt="Image 1">
+
+                        <div class=" p-4 rounded-lg ">
+                            <img src="/asset/kerinci-mount2.jpeg" class="w-96 h-auto rounded-lg"">
+                    </div>
+                </div>
+
+                <div class=" p-4 rounded-lg ">
+                    <img src=" /asset/gunungrinjanilombok21.jpg" class="w-full h-96 rounded-lg"
+                                style=" object-fit: cover; margin-left: -10%;">
+                        </div>
+
+                        <div class="text-mount">
+                            <h3 class="font-bold">Gunung Kerinci</h3>
+
+                            <div class="border-l-2 border-black h-52 ">
+                                <p class="font-poppins text-lg text-left ml-5 whitespace-nowrap mt-5">Gunung Kerinci
+                                    adalah
+                                    gunung berapi tertinggi <br> di Indonesia, dengan ketinggian sekitar 3.805 <br>
+                                    meter di
+                                    atas permukaan laut. Gunung ini terletak di <br> Provinsi Jambi. Gunung ini
+                                    juga terkenal sebagai salah satu <br>tujuan favorit pendaki,
+                                    menawarkan pemandangan <br> spektakuler dari puncaknya</p>
+
+                                <div class="more-info my-5 mr-20">
+                                    <button class="btn btn-primary rounded-full font-poppins">
+                                        <p>Lihat Selengkapnya</p>
+
+                                </div>
+                                <div class="visit-trust flex gap-10">
+
+                                    <div class="user-visit">
+                                        <div
+                                            class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                            <p class="text-center text-white text-lg">20.000+ Pendaki<br
+                                                    class="text-left"> / Tahun
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="user-visit">
+                                        <div
+                                            class="card-trust w-56 h-20 bg-zinc-800 flex items-center justify-center rounded-xl shadow-lg p-5">
+                                            <p class="text-center text-white text-lg">15.000 Pendaki Menyukai <br
+                                                    class="text-left">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="lainnya" class="dropdown-mount gunung-info hidden mt-10">
+                        <div class="dropdown-menu flex justify-center gap-5 text-xl text-white">
+                            <button class="btn rounded-full text-lg ">Gunung Merapi</button>
+                            <button class="btn rounded-full text-lg">Gunung Gede</button>
+                            <button class="btn rounded-full text-lg">Gunung Bromo</button>
+                            <button class="btn rounded-full text-lg">Gunung Semeru</button>
+                        </div>
+                        <div class="mt-5 gap-5 flex justify-center ">
+                            <button onclick="showInfo('slamet')" class="btn rounded-full text-lg">Gunung Slamet</button>
+                            <button onclick="showInfo('raung')" class="btn rounded-full text-lg">Gunung Raung</button>
+                            <button onclick="showInfo('sindoro')" class="btn rounded-full text-lg">Gunung
+                                Sindoro</button>
+                        </div>
+                        <div class="mt-5">
+                            <button onclick="showInfo('jaya')" class="btn rounded-full text-lg">Gunung Jaya</button>
+                            <button onclick="showInfo('sumbing')" class="btn rounded-full text-lg">Gunung
+                                Sumbing</button>
+                            <button onclick="showInfo('salak')" class="btn rounded-full text-lg">Gunung Salak</button>
+                            <button onclick="showInfo('trikora')" class="btn rounded-full text-lg">Gunung
+                                Trikora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <main>
+        <div class="pro-guide bg-emerald-950 text-white py-10">
+            <h1 class="text-4xl font-poppins font-bold text-center">Profesional Guide</h1>
+            <p class="text-center font-jakarta text-m mb-10 mt-5">Dipandu oleh para ahli berpengalaman, setiap pendakian kami didampingi <br>oleh profesional yang siap memandu Anda menjelajahi jalur pegunungan dengan aman dan nyaman.</p>
+            <div class="swiper mySwiper max-w-4xl mx-auto px-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="prof-card flex justify-between items-center max-w-4xl mx-auto px-4 gap-8 ">
+                            <div class="prof-text ">
+                                <p class="font-poppins font-bold text-3xl mb-2 whitespace-nowrap">Fiersa Besari –
+                                    Musisi <br> Penulis, dan Pecinta Alam</p>
+                                <p class="font-jakarta text-m mt-7 mb-10">Ia telah menaklukkan berbagai puncak gunung di
+                                    Indonesia dan menjadikan aktivitas mendaki sebagai bagian penting dari perjalanan
+                                    hidupnya.</p>
+                                <div
+                                    class="card-user-like flex gap-10 font-poppins font-semibold text-lg whitespace-nowrap">
+                                    <div class="user-guide">
+                                        <p>Disukai</p>
+                                        <h6>25.000 Orang</h6>
+                                    </div>
+                                    <div class="user-order">
+                                        <p>Order</p>
+                                        <h5>25.000 Orang</h5>
+                                    </div>
+                                </div>
+
+                                <div class="contact-prof flex gap-5">
+                                    <a href="">
+                                        <img src="/asset/instagram.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                    <a href="">
+                                        <img src="/asset/x.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="prof-image">
+                                <img src="/asset/MountTrack.png" class="object-contain z-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="prof-card flex justify-between items-center max-w-4xl mx-auto px-4 gap-8 ">
+                            <div class="prof-text ">
+                                <p class="font-poppins font-bold text-3xl mb-2 whitespace-nowrap">Furky Syahroni –
+                                    Travel<br> & Hiking Enthusiast</p>
+                                <p class="font-jakarta text-m mt-7 mb-10">Furky Syahroni adalah pendaki gunung Indonesia yang terkenal
+                                dengan eksplorasinya. Ia membagikan pengalaman dan tips pendakian melalui media sosial.</p>
+                                <div
+                                    class="card-user-like flex gap-10 font-poppins font-semibold text-lg whitespace-nowrap">
+                                    <div class="user-guide">
+                                        <p>Disukai</p>
+                                        <h6>25.000 Orang</h6>
+                                    </div>
+                                    <div class="user-order">
+                                        <p>Order</p>
+                                        <h5>25.000 Orang</h5>
+                                    </div>
+                                </div>
+
+                                <div class="contact-prof flex gap-5">
+                                    <a href="">
+                                        <img src="/asset/instagram.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                    <a href="">
+                                        <img src="/asset/x.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <div class="prof-image">
+                                <img src="/asset/MountTrack (1).png" class="object-contain z-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="prof-card flex justify-between items-center max-w-4xl mx-auto px-4 gap-8 ">
+                            <div class="prof-text ">
+                                <p class="font-poppins font-bold text-3xl mb-2 whitespace-nowrap">Dzawin Nur –
+                                    Pelawak<br> & Aktor Indonesia</p>
+                                <p class="font-jakarta text-m mt-7 mb-10">pada kegiatan pendakian gunung yang melibatkan 
+                                    Dzawin Nur atau merupakan tema yang sering dibagikan di media 
+                                    sosial oleh para pendaki.</p>
+                                <div
+                                    class="card-user-like flex gap-10 font-poppins font-semibold text-lg whitespace-nowrap">
+                                    <div class="user-guide">
+                                        <p>Disukai</p>
+                                        <h6>25.000 Orang</h6>
+                                    </div>
+                                    <div class="user-order">
+                                        <p>Order</p>
+                                        <h5>25.000 Orang</h5>
+                                    </div>
+                                </div>
+
+                                <div class="contact-prof flex gap-5">
+                                    <a href="">
+                                        <img src="/asset/instagram.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                    <a href="">
+                                        <img src="/asset/x.svg" class="w-8 group-hover:opacity-60 transition-opacity duration-150 mt-5">
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="prof-image">
+                                <img src="/asset/MountTrack (2).png" class="object-contain z-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="prof-card flex justify-between items-center max-w-4xl mx-auto px-4 gap-8 ">
+                            <div class="prof-text ">
+                                <p class="font-poppins font-bold text-3xl mb-2 whitespace-nowrap">Fiersa Bersari –
+                                    Musisi <br> Penulis, dan Pecinta Alam</p>
+                                <p class="font-jakarta text-m mt-7 mb-10">Ia telah menaklukkan berbagai puncak gunung di
+                                    Indonesia dan menjadikan aktivitas mendaki sebagai bagian penting dari perjalanan
+                                    hidupnya.</p>
+                                <div
+                                    class="card-user-like flex gap-10 font-poppins font-semibold text-lg whitespace-nowrap">
+                                    <div class="user-guide">
+                                        <p>Disukai</p>
+                                        <h6>25.000 Orang</h6>
+                                    </div>
+                                    <div class="user-order">
+                                        <p>Order</p>
+                                        <h5>25.000 Orang</h5>
+                                    </div>
+                                </div>
+
+                                <button class="w-40 h-14 rounded-full mt-5 bg-black">Kontak</button>
+                            </div>
+                            <div class="prof-image">
+                                <img src="/asset/MountTrack.png" class="object-contain z-10">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </main>
+
+    <article class=" bg-[#16423C]" style="height: 50rem;">
+        <div class="blog-content">
+            <div class="blog-text">
+                <div class="blog">
+                    <div class="text-blog">
+                        <h1 class="text-4xl text-center font-bold">Blog</h1>
+                    </div>
+                    <div class="flex sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 justify-center">
+                        
+                        <a href="" class="reveal1 relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden group">
+                            
+                            <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover group-hover:brightness-75
+                            transition-brightness duration-500">
+                            
+                            <div class="absolute bottom-0 left-0 right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform 
+                            translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                            <h3 class="text-xl font-bold font-poppins">Gunung Rinjani</h3>
+                            <p class="mt-2">Deskripsi singkat tentang Gunung Rinjani.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="" class="relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden 
+                    group">
+                    <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover
+                    group-hover:brightness-75 transition-brightness duration-500">
+                    
+                    <div
+                    class="absolute bottom-0 left-0 right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                    <h3 class="text-xl font-bold font-poppins">Gunung Merbabu</h3>
+                    <p class="mt-2">Deskripsi singkat tentang Gunung Merbabu.</p>
+                </div>
+            </a>
+            
+            <a href="" class="relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden group">
+                <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover
+                group-hover:brightness-75 transition-brightness  duration-500">
+                
+                <div
+                class="absolute bottom-0 left-0 right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                <h3 class="text-xl font-bold font-poppins">Gunung Kerinci</h3>
+                <p class="mt-2">Deskripsi singkat tentang Gunung Kerinci.</p>
+            </div>
+        </a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="sec-mountain-blog">
+        
+        <div class="flex sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 justify-center">
+            <a href="" class="relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden group">
+                <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover
+                group-hover:brightness-75 transition-brightness  duration-500">
+                
+                <div
+                class="absolute bottom-0 left-0 right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                <h3 class="text-xl font-bold font-poppins">Gunung Rinjani</h3>
+                <p class="mt-2">Deskripsi singkat tentang Gunung Rinjani.</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover
+            group-hover:brightness-75 transition-brightness  duration-500">
+
+                        <div
+                            class="absolute bottom-0 left-0 right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                            <h3 class="text-xl font-bold font-poppins">Gunung Rinjani</h3>
+                            <p class="mt-2">Deskripsi singkat tentang Gunung Rinjani.</p>
+                        </div>
+                    </a>
+
+                    <a href="" class="relative w-72 h-72 bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <img src="/asset/3726MDPL 3.jpg" class="w-full h-full object-cover
+            group-hover:brightness-75 transition-brightness  duration-500">
+
+                        <div
+                            class="absolute bottom-0 left-0  right-0 bg-gray-400 bg-opacity-20 p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                            <h3 class="text-xl font-poppins font-bold">Gunung Rinjani</h3>
+                            <p class="mt-2 ">Deskripsi singkat tentang Gunung Rinjani.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <article class="h-screen bg-emerald-950">
+        <div class="event-recent mt-10">
+            <div class="card-event">
+                <div class="event">
+                    <h2 class="font-poppins text-3xl text-center font-bold mb-5">Recent Events</h2>
+                    <div class="text-event flex mx-auto justify-center gap-10 my-10">
+                        <h1 class="text-3xl font-bold font-poppins text-left">
+                            Recent <br>Events
+                            <hr class="garis border-gray h-9 w-10 mt-2">
+                            <p class="text-sm font-medium mt-5">Kami baru saja menyelesaikan pendakian <br> yang menakjubkan! Peserta menikmati <br> keindahan alam, udara segar pegunungan, <br>dan pemandangan spektakuler dari puncaknya.</p>
+                            <div class="medsos flex w-5 h-5 brightness-100 mt-10 gap-4">
+                                <img src="/asset/instagram.svg">
+                                <img src="/asset/x.svg">
+                            </div>
+                        </h1>
+                            <div class="content">
+                                <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+
+                                <div class="date-content">
+                                    <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                                </div>
+                                <div class="trip-text mt-2">
+                                    <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+
+                                <div class="date-content">
+                                    <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                                </div>
+                                <div class="trip-text mt-2">
+                                    <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                                </div>
+                            </div>
+                            
+                            <div class="content">
+                                <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+                                
+                                <div class="date-content">
+                                    <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                                </div>
+                                <div class="trip-text mt-2">
+                                    <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <h2 class="text-center text-3xl font-bold font-poppins mt-10">Upcoming Events</h2>
+                    <div class="text-event flex mx-auto justify-center gap-10 mt-10">
+                        <div class="content">
+                            <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+                            
+                            <div class="date-content">
+                                <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                            </div>
+                            <div class="trip-text mt-2">
+                                <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+                            
+                            <div class="date-content">
+                                <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                            </div>
+                            <div class="trip-text mt-2">
+                                <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="content">
+                            <img src="/asset/booking-regist.jpg" class="w-48 h-48 rounded-lg">
+                            
+                            <div class="date-content">
+                                <p class="text-left mt-5 font-poppins text-xs opacity-20  text-white/20 ">24/10/2000 – Jakarta</p>
+                            </div>
+                            <div class="trip-text mt-2">
+                                <h2 class="font-semibold font-poppins">Open Trip Rinjani 2024</h2>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <h1 class="text-3xl font-bold font-poppins">
+                                Upcoming <br>Events
+                            </h1>
+                            <hr class="w-10 border-gray-300 ml-auto mt-2 mb-5">
+                            <p class="text-sm font-medium mt-5 font-poppins">
+                                Bersiaplah untuk petualangan mendatang! <br>
+                                Kami akan mengadakan pendakian ke salah <br>
+                                satu gunung paling menakjubkan
+                            </p>
+                                <div class="medsos flex justify-end w-5 h-5 ml-auto brightness-100 mt-10 gap-4">
+                                    <img src="/asset/instagram.svg">
+                                    <img src="/asset/x.svg">
+                                </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div> 
+                <div class="image-footer mt-20">
+                    <img src="/asset/footerr.png" class="w-full h-52 opacity-60">
+                </div>
+
+                <div class="left-text">
+                    <p class="text-4xl font-jakarta font-bold mt-10 ml-10">Explore the Peaks <br> Discover the Adventure</p>
+                </div>
+
+                <div class="navigation-links ">
+                    <div class="nav">
+                        <ul class="font-semibold font-jakarta text-lg max-w-2xl mt-20 grid grid-cols-4 mx-auto justify-center gap-3">
+                            <li class="border-l-2 h-7"> 
+                                <a href="" class="ml-2">Home</a>
+                            </li>
+                            
+                            <li class="border-l-2 h-7"> 
+                                <a href="" class="ml-2">Famous Mount</a>
+                            </li>
+                            
+                            <li class="border-l-2 h-7 ml-10"> 
+                                <a href="" class="ml-2">Blog</a>
+                            </li>
+                            
+                            <li>
+                                <button class="w-32 h-10 font-semibold bg-white text-black group-hover:opacity-0 transition-opacity duration-150 rounded-full">
+                                    Contact Us
+                                </button>
+                            </li>
+                            
+                            <li class="border-l-2 h-7"> 
+                                <a href="" class="ml-2">About</a>
+                            </li>
+                            
+                            <li class="border-l-2 h-7"> 
+                                <a href="" class="ml-2">Pro Guide</a>
+                            </li>
+
+                            <li class="border-l-2 h-7 ml-10"> 
+                                <a href="" class="ml-2">Event</a>
+                            </li>              
+                        </ul>
+
+                        <div class="mount-track">
+                            <div class="left-text">
+                                <div class="text mt-10 ml-10">
+                                    <h1 class="text-xl font-jakarta text-white font-medium">MountTrack</h1>
+                                    <p class="mt-5 text-sm font-semibold font-jakarta">Copyright © 2024 | Bintang XI RPL</p>
+                                    <span class=" text-base font-semibold font-jakarta">Adventure Awaits</span>
+                                    <hr class="ml-10 mt-10 w-11/12">
+                                </div>
+
+                                <div class="medsos-footer flex w-10 justify-center mx-auto mt-5 gap-5 opacity-85">
+                                    <a href="" class="flex gap-5">
+                                        <img src="/asset/instagram.svg" class="group-hover:opacity-25 transition-opacity duration-150">
+                                        <img src="/asset/x.svg" alt="">
+                                        <img src="/asset/icons8-linkedin.svg" >
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+        ScrollReveal().reveal(".merbabu-mountain", { delay: 500 });
+        
+        </script>
+
+<script src="/js/search-mountain.js"></script>
+<script src="/js/scroll-reveal.js"></script>
+<script src="/js/swiper-slider.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
