@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     daisyui: {
       themes: ["light", "dark", "cupcake"],
+      screens: {
+        'custom': {'min': '380px', 'max': '900px'},
+      },
     },
     extend: {
       fontFamily: {
