@@ -16,6 +16,10 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
+      fontSize : {
+        "tiny" : '0.50rem',
+        "half" : '1rem',
+      },
     },
   },
   plugins: [
